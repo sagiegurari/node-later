@@ -1,0 +1,53 @@
+{
+  "name": "node-later",
+  "version": "0.0.1",
+  "description": "Defer function calls to the start of the next cycle.",
+  "author": {
+    "name": "Sagie Gur-Ari",
+    "email": "sagiegurari@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "homepage": "http://github.com/sagiegurari/node-later",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sagiegurari/node-later.git"
+  },
+  "bugs": {
+    "url": "http://github.com/sagiegurari/node-later/issues"
+  },
+  "keywords": [
+    "async",
+    "defer",
+    "later",
+    "timeout",
+    "nextTick"
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test/spec"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "clean": "grunt cleanup",
+    "lint": "grunt lint",
+    "docs": "grunt docs",
+    "format": "grunt format",
+    "build": "grunt build",
+    "jstest": "grunt jstest",
+    "debug": "mocha --debug-brk=5858 --no-timeouts --ui bdd --reporter spec --recursive ./test/spec",
+    "prepush": "npm run build",
+    "postpublish": "grunt post-publish",
+    "grunt": "grunt"
+  },
+  "dependencies": {
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "husky": "latest",
+    "js-project-commons": "latest"
+  }
+}
