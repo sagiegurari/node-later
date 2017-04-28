@@ -25,7 +25,7 @@ This library enables to extract the "best" API which enables to run a provided f
 ## Usage
 
 ```js
-First you must require this library as follows:
+//first you must require this library as follows:
 var later = require('node-later');
 
 //get a defer function based on current node.js version
