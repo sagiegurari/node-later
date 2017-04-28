@@ -43,7 +43,7 @@ Returns a defer function.
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| [comptibleVersion] | <code>String</code> | <code>process.version</code> | The nodejs version the defer function should be compatible with |
+| [comptibleVersion] | <code>String</code> | <code>process.version.substring(1)</code> | The nodejs version the defer function should be compatible with |
 
 **Example**  
 ```js
