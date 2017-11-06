@@ -1,6 +1,6 @@
 {
   "name": "node-later",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Defer function calls to the start of the next cycle.",
   "author": {
     "name": "Sagie Gur-Ari",
