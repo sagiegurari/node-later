@@ -1,8 +1,7 @@
 # node-later
 
-[![NPM Version](http://img.shields.io/npm/v/node-later.svg?style=flat)](https://www.npmjs.org/package/node-later) [![Build Status](https://travis-ci.org/sagiegurari/node-later.svg)](http://travis-ci.org/sagiegurari/node-later) [![Coverage Status](https://coveralls.io/repos/sagiegurari/node-later/badge.svg)](https://coveralls.io/r/sagiegurari/node-later) [![bitHound Code](https://www.bithound.io/github/sagiegurari/node-later/badges/code.svg)](https://www.bithound.io/github/sagiegurari/node-later) [![Inline docs](http://inch-ci.org/github/sagiegurari/node-later.svg?branch=master)](http://inch-ci.org/github/sagiegurari/node-later)<br>
-[![License](https://img.shields.io/npm/l/node-later.svg?style=flat)](https://github.com/sagiegurari/node-later/blob/master/LICENSE) [![Total Downloads](https://img.shields.io/npm/dt/node-later.svg?style=flat)](https://www.npmjs.org/package/node-later) [![Dependency Status](https://david-dm.org/sagiegurari/node-later.svg)](https://david-dm.org/sagiegurari/node-later) [![devDependency Status](https://david-dm.org/sagiegurari/node-later/dev-status.svg)](https://david-dm.org/sagiegurari/node-later?type=dev)<br>
-[![Known Vulnerabilities](https://snyk.io/test/github/sagiegurari/node-later/badge.svg)](https://snyk.io/test/github/sagiegurari/node-later) [![Retire Status](http://retire.insecurity.today/api/image?uri=https://raw.githubusercontent.com/sagiegurari/node-later/master/package.json)](http://retire.insecurity.today/api/image?uri=https://raw.githubusercontent.com/sagiegurari/node-later/master/package.json)
+[![NPM Version](http://img.shields.io/npm/v/node-later.svg?style=flat)](https://www.npmjs.org/package/node-later) [![Build Status](https://travis-ci.org/sagiegurari/node-later.svg)](http://travis-ci.org/sagiegurari/node-later) [![Coverage Status](https://coveralls.io/repos/sagiegurari/node-later/badge.svg)](https://coveralls.io/r/sagiegurari/node-later) [![Known Vulnerabilities](https://snyk.io/test/github/sagiegurari/node-later/badge.svg)](https://snyk.io/test/github/sagiegurari/node-later) [![Inline docs](http://inch-ci.org/github/sagiegurari/node-later.svg?branch=master)](http://inch-ci.org/github/sagiegurari/node-later)<br>
+[![License](https://img.shields.io/npm/l/node-later.svg?style=flat)](https://github.com/sagiegurari/node-later/blob/master/LICENSE) [![Total Downloads](https://img.shields.io/npm/dt/node-later.svg?style=flat)](https://www.npmjs.org/package/node-later) [![Dependency Status](https://david-dm.org/sagiegurari/node-later.svg)](https://david-dm.org/sagiegurari/node-later) [![devDependency Status](https://david-dm.org/sagiegurari/node-later/dev-status.svg)](https://david-dm.org/sagiegurari/node-later?type=dev)
 
 > Defer function calls to the start of the next cycle.
 
@@ -62,7 +61,7 @@ See [contributing guide](.github/CONTRIBUTING.md)
 
 | Date        | Version | Description |
 | ----------- | ------- | ----------- |
-| 2018-04-30  | v1.0.12 | Maintenance |
+| 2018-06-13  | v1.0.13 | Maintenance |
 | 2017-04-28  | v1.0.0  | Offical release |
 | 2017-04-28  | v0.0.1  | Initial release |
 
