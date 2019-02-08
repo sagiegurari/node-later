@@ -1,6 +1,6 @@
 {
   "name": "node-later",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Defer function calls to the start of the next cycle.",
   "author": {
     "name": "Sagie Gur-Ari",
@@ -35,10 +35,13 @@
     "format": "grunt format",
     "build": "grunt build",
     "jstest": "grunt jstest",
-    "debug": "mocha --debug-brk=5858 --no-timeouts --ui bdd --reporter spec --recursive ./test/spec",
-    "prepush": "npm run build",
     "postpublish": "grunt post-publish",
     "grunt": "grunt"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build"
+    }
   },
   "dependencies": {
     "semver": "^5.5.0"
