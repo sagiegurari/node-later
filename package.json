@@ -44,7 +44,7 @@
     }
   },
   "dependencies": {
-    "semver": "^6.0.0"
+    "semver": "^7.0.0"
   },
   "devDependencies": {
     "chai": "latest",
