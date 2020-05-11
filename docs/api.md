@@ -25,7 +25,7 @@ Returns a defer function.
 **Example**  
 ```js
 //get a defer function
-var defer = later();
+const defer = later();
 
 //use defer function
 defer(onCallback() {
@@ -48,7 +48,7 @@ Returns a defer function.
 **Example**  
 ```js
 //get a defer function based on current nodejs version
-var defer = later();
+const defer = later();
 
 //use defer function
 defer(onCallback() {
