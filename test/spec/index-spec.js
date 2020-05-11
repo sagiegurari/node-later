@@ -1,8 +1,8 @@
 'use strict';
 
-var chai = require('chai');
-var assert = chai.assert;
-var later = require('../../');
+const chai = require('chai');
+const assert = chai.assert;
+const later = require('../../');
 
 describe('Index', function () {
     it('node-later', function () {
