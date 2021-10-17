@@ -1,10 +1,7 @@
-.idea
-.c9
 target
 .temp
-.travis.yml
-.atom.*.yml
-Gruntfile.js
+.nyc_output
+coverage
 bower_components
 .github
 test
