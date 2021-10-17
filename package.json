@@ -32,27 +32,18 @@
     "format": "js-beautify --config ./.jsbeautifyrc --file ./*.js ./lib/**/*.js ./test/**/*.js",
     "lint": "eslint ./*.js ./lib/**/*.js ./test/**/*.js",
     "jstest": "mocha ./test/**/*.js",
-    "coverage": "nyc --reporter=html --reporter=text --check-coverage=true mocha ./test/**/*.js",
-    "coverage-report": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc --reporter=html --reporter=text --reporter=lcovonly --check-coverage=true mocha ./test/**/*.js",
     "docs": "jsdoc2md lib/**/*.js > ./docs/api.md",
-    "dev-flow": "npm run clean && npm run format && npm run lint && npm run docs && npm run coverage",
-    "test": "npm run dev-flow && npm run coverage-report",
+    "test": "npm run clean && npm run format && npm run lint && npm run docs && npm run coverage",
     "postpublish": "git fetch && git pull"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run dev-flow"
-    }
   },
   "dependencies": {
     "semver": "^7"
   },
   "devDependencies": {
     "chai": "^4",
-    "coveralls": "^3",
     "eslint": "^8",
     "gitdown": "^3",
-    "husky": "^7",
     "js-beautify": "^1",
     "jsdoc-to-markdown": "^7",
     "mocha": "^9",
