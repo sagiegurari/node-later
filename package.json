@@ -30,7 +30,9 @@
   "scripts": {
     "clean": "rm -Rf ./.nyc_output ./coverage",
     "format": "js-beautify --config ./.jsbeautifyrc --file ./*.js ./lib/**/*.js ./test/**/*.js",
-    "lint": "eslint ./*.js ./lib/**/*.js ./test/**/*.js",
+    "lint-js": "eslint ./*.js ./lib/**/*.js ./test/**/*.js",
+    "lint-css": "stylelint --allow-empty-input ./docs/**/*.css",
+    "lint": "npm run lint-js && npm run lint-css",
     "jstest": "mocha ./test/**/*.js",
     "coverage": "nyc --reporter=html --reporter=text --reporter=lcovonly --check-coverage=true mocha ./test/**/*.js",
     "docs": "jsdoc2md lib/**/*.js > ./docs/api.md",
@@ -47,6 +49,8 @@
     "js-beautify": "^1",
     "jsdoc-to-markdown": "^7",
     "mocha": "^9",
-    "nyc": "^15"
+    "nyc": "^15",
+    "stylelint": "^13",
+    "stylelint-config-standard": "^22"
   }
 }
