@@ -45,7 +45,6 @@
   "devDependencies": {
     "chai": "^4",
     "eslint": "^8",
-    "gitdown": "^3",
     "js-beautify": "^1",
     "jsdoc-to-markdown": "^7",
     "mocha": "^9",
